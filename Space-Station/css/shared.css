@@ -4,7 +4,7 @@
 html {
     font-family: sans-serif;
     font-size: 62.58;
-    -webkit-tap-highlight-color: rgba (0,0,0,0);	
+    -webkit-tap-highlight-color: rgba(7, 3, 71, 0);	
     -webkit-text-size-adjust: 1008;
 	-ms-text-size-adjust: 1008;
 }
@@ -14,8 +14,8 @@ body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
+    color: #15567e;
+    background-color: #0d2847;
 }
 
 footer, 
@@ -31,8 +31,8 @@ h1 {
     font-weight: 900; font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: #E91C1C;
-    text-shadow: 2px 2px 3px rgba (0,0,0,0.5);
+    color: #eeeeee;
+    text-shadow: 2px 2px 3px rgba(56, 117, 191, 0.5);
 }
 
 h1::after { /*This is the underline*/
@@ -40,14 +40,14 @@ h1::after { /*This is the underline*/
     content: "";
     height: 2px;
     width: 150px;
-    background: #E91C1C;
+    background: #080809;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
 h2 {
     line-height: 50px;
-    color: #E91C1C
+    color: #14045e
 }
 
 h3 {
@@ -158,7 +158,7 @@ forcing any scrollbars*/
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba (0,0,0,0.9);
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt; 
@@ -196,9 +196,9 @@ forcing any scrollbars*/
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
-    margin: opx auto;
-    background-color: rgba (100, 65, 0, .3); 
-    box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.5);
+    margin: 0px auto;
+    background-color: rgba(43, 91, 121, 0.3); 
+    box-shadow: 2px 2px 10px 0 rgba(245, 245, 248, 0.5);
 }
 
 #contact{
@@ -209,9 +209,9 @@ forcing any scrollbars*/
     width: 60%;
     padding: 10px;
     border-radius: 8px;
-    margin: opx auto;
-    background-color: rgba (100,65,0,.3);
-    box-shadow: -1px -1px 1px 0 rgba (0,0,0,1), 1px 2px 10px 0 rgba (0,0,0,0.5);
+    margin: 0px auto;
+    background-color: rgba(100,65,0,.3);
+    box-shadow: -1px -1px 1px 0 rgba(0,0,0,1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 .reservation h2 {
@@ -247,13 +247,13 @@ forcing any scrollbars*/
     font-size: 15px;
     outline: none;
     font-weight: 400;
-    color: #8D8E8F;
+    color: #01182e;
     padding: 12px 12px;
-    width: max-content;
-    border: 1px solid #73bde2;
+    width: auto;
+    border: 1px solid #0b0b0c;
     margin: auto;
     border-radius: 7px;
-    background: rgb(166, 171, 172);
+    background: rgb(163, 195, 214);
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3); 
     font-family: 'Raleway', sans-serif;
 }
@@ -261,22 +261,22 @@ forcing any scrollbars*/
 .reservation input[type="text"] { 
     font-size: 15px;
     outline: none;
-    font-weight: 600; color: #8D8E8F;
+    font-weight: 600; color: #e3eaf1;
     padding: 2% 1% 28 78;
     width: 80%;
     border-top: 1px solid #090B0D; 
     border-right: 2px solid #424549; 
     border-bottom: 2px solid #424549; 
-    border-left: ipx solid #090B0D;
+    border-left: 1px solid #090B0D;
     margin: 10px lem; 
     border-radius: 7px; 
     background: #bcceed;
-    box-shadow: inset opx 3px opx opx rgba (5,5,5,0.15); 
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15); 
     font-family: 'Raleway', sans-serif;
 }
     
 .reservation input[type="text"]:hover { 
-    box-shadow: 0 0 18px rgba (100,65,0,.8);
+    box-shadow: 0 0 18px rgba(9, 11, 24, 0.8);
 }
 
 .form-spacer {
@@ -299,41 +299,41 @@ forcing any scrollbars*/
 }
 
 .terms:hover {
-    color: orange;
+    color: rgb(12, 7, 118);
     text-decoration: underline;
 }
 
 .submit input[type="submit"] {
-    color: rgb (255, 255, 255);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border: none;
     font-weight: 900;
     outline: none;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin: opx 38;
-    padding: 7px opx;
+    margin: 0px 38;
+    padding: 7px 0px;
     width: 258;
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s; 
     border-radius: 7px;
     background-color: #797a7b;
-    box-shadow: 1px 1px 4px 0 rgba (0,0,0,0.3);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
 .submit input[type="submit"]:hover { 
     color: #000;
     background-color: #add2f7;
-    box-shadow: inset 1px 2px 15px 0 rgba (0,0,0,0.5);
+    box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 }
 
 /*-----------------------------------------------------------------------------------------------
         FOOTER STYLES
 -----------------------------------------------------------------------------------------------*/
 #footer {
-    background-color: rgba (100,65,0,3); 
+    background-color: rgba(100,65,0,3); 
     color: #000;
-    text-shadow: 2px 2px 8px 0 rgba (0,0,0,1); 
+    text-shadow: 2px 2px 8px 0 rgba(0,0,0,1); 
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
@@ -376,7 +376,7 @@ forcing any scrollbars*/
         MENU SECTION ANIMATION
 ------------------------------------------------------------------------------------------------*/
 .menu {
-    color: #f00;
+    color: rgb(9, 2, 111);
     font: bold 12px/18px sans-serif;
     text-align: center;
     display: inline;
@@ -388,25 +388,25 @@ forcing any scrollbars*/
 
 .menu li {
     color: #000;
-    background-color: rgba (255,255,255,1); 
+    background-color: rgba(255,255,255,1); 
     display: inline-block;
     margin: 08 auto;
     position: relative;
     padding: 15px 4%;
     border: 1px solid #9D9FA2;
-    box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.5); 
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5); 
     border-radius: 6px;
     /*background-color: #052136;*/
     cursor: pointer;
     transition-property: background;
     transition-duration: .4s;
-    transition-delay: Os;
+    transition-delay: 0s;
     transition-timing-function: ease-in-out;
 }
 
 .menu li:hover {
-    color: #f00;
-    background-color: rgba (100,65,0,0.3);
+    color: rgb(6, 3, 75);
+    background-color: rgba(112, 180, 236, 0.3);
 }
 
 /*-----------------------------------------------------------------------------------------------
@@ -421,8 +421,8 @@ forcing any scrollbars*/
     border-radius: 8px;
     padding: 1px;
     border: 1px solid #021a40; 
-    background-color: #ff0;
-    box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.7);
+    background-color: rgb(2, 1, 10);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
 }
 
 .photo-container {
@@ -448,7 +448,7 @@ forcing any scrollbars*/
     padding-right: 20px;
     justify-content: center; /* For centering text inside photo-overlay */ 
     align-items: center;
-    background: rgba (0,0,0,5);
+    background: rgba(0,0,0,5);
 }
 .white-head {
     color: #C9BDAA;
@@ -475,7 +475,7 @@ photo img {
 }
 
 .photo:hover img {
-    transform: scale (1.1) ;
+    transform: scale(1.1) ;
 }
 
 
