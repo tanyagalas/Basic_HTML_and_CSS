@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+    <style>
+      .column {
+        float: left;
+        width: 50%;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Webpage</h1>
+    <div class="row">
+      <div class="column">
+        <h2>Column 1</h2>
+        <p>This is the content of column 1.</p>
+      </div>
+      <div class="column">
+        <h2>Column 2</h2>
+        <p>This is the content of column 2.</p>
+      </div>
+    </div>
+    <table>
+      <colgroup>
+        <col style="background-color: yellow;">
+        <col style="background-color: blue;">
+      </colgroup>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td>This is the content of column 1.</td>
+        <td>This is the content of column 2.</td>
+      </tr>
+    </table>
+  </body>
+</html>
