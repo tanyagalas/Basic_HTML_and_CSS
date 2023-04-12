@@ -4,7 +4,7 @@
 html {
     font-family: sans-serif;
     font-size: 62.58;
-    -webkit-tap-highlight-color: rgba (0, 0, 0, 0);	
+    -webkit-tap-highlight-color: rgba (0,0,0,0);	
     -webkit-text-size-adjust: 1008;
 	-ms-text-size-adjust: 1008;
 }
@@ -32,7 +32,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     color: #E91C1C;
-    text-shadow: 2px 2px 3px rgba (0, 0, 0, 0.5);
+    text-shadow: 2px 2px 3px rgba (0,0,0,0.5);
 }
 
 h1::after { /*This is the underline*/
@@ -42,7 +42,7 @@ h1::after { /*This is the underline*/
     width: 150px;
     background: #E91C1C;
     margin: 5px auto 40px;
-    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
 h2 {
@@ -142,7 +142,7 @@ forcing any scrollbars*/
 /*--------------------------------------------------------------------------------------------
                        HOME SECTION STYLES
 ---------------------------------------------------------------------------------------------*/
-#home  {
+#home {
     background: url(../images/planets_1.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -158,7 +158,7 @@ forcing any scrollbars*/
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba (0, 0, 0, 0.9);
+    text-shadow: 2px 4px 5px rgba (0,0,0,0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt; 
@@ -190,15 +190,15 @@ forcing any scrollbars*/
 /*-----------------------------------------------------------------------------------------------
             Contact STYLES
 -----------------------------------------------------------------------------------------------*/
-.flex-container{
+.flex-container {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
-    margin: Opx auto;
+    margin: opx auto;
     background-color: rgba (100, 65, 0, .3); 
-    box-shadow: 2px 2px 10px 0 rgba (0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.5);
 }
 
 #contact{
@@ -209,9 +209,9 @@ forcing any scrollbars*/
     width: 60%;
     padding: 10px;
     border-radius: 8px;
-    margin: Opx auto;
-    background-color: rgba (100, 65, 0, .3);
-    box-shadow: -1px -1px 1px 0 rgba (0, 0, 0, 1), 1px 2px 10px 0 rgba (0, 0, 0, 0.5);
+    margin: opx auto;
+    background-color: rgba (100,65,0,.3);
+    box-shadow: -1px -1px 1px 0 rgba (0,0,0,1), 1px 2px 10px 0 rgba (0,0,0,0.5);
 }
 
 .reservation h2 {
@@ -221,14 +221,14 @@ forcing any scrollbars*/
     color: #13161B;
     font-weight: 500; 
     font-size: 1. 3em; 
-    letter-spacing: Opt;
-    word-spacing: Opt;
+    letter-spacing: opt;
+    word-spacing: opt;
 }
 
 .reservation h2 span {
     width: 70%;
     text-align: center;
-    margin: 0 auto; 
+    margin: auto; 
     color: #032764;
     font-weight: 900; 
     font-size: 1.5em;
@@ -246,18 +246,19 @@ forcing any scrollbars*/
 .reservation form {
     font-size: 15px;
     outline: none;
-    font-weight:400; color: #8D8E8F;
+    font-weight: 400;
+    color: #8D8E8F;
     padding: 12px 12px;
     width: max-content;
-    border: Ipx solid #73bde2;
-    margin:auto 
+    border: 1px solid #73bde2;
+    margin: auto;
     border-radius: 7px;
-    background: rgb (227, 222, 222) ;
-    box-shadow: 2px 3px 3px 0px rgba (0, 0, 0, 0.3); 
+    background: rgb(166, 171, 172);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3); 
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"] { 
+.reservation input[type="text"] { 
     font-size: 15px;
     outline: none;
     font-weight: 600; color: #8D8E8F;
@@ -266,16 +267,16 @@ forcing any scrollbars*/
     border-top: 1px solid #090B0D; 
     border-right: 2px solid #424549; 
     border-bottom: 2px solid #424549; 
-    border-left: Ipx solid #090B0D;
+    border-left: ipx solid #090B0D;
     margin: 10px lem; 
     border-radius: 7px; 
-    background: #13161B;
-    box-shadow: inset Opx 3px Opx Opx rgba (5, 5, 5, 0.15); 
+    background: #bcceed;
+    box-shadow: inset opx 3px opx opx rgba (5,5,5,0.15); 
     font-family: 'Raleway', sans-serif;
 }
     
-.reservation input [type="text"]:hover { 
-    box-shadow: 0 0 18px rgba (100, 65, 0, .8);
+.reservation input[type="text"]:hover { 
+    box-shadow: 0 0 18px rgba (100,65,0,.8);
 }
 
 .form-spacer {
@@ -302,7 +303,7 @@ forcing any scrollbars*/
     text-decoration: underline;
 }
 
-.submit input [type="submit"] {
+.submit input[type="submit"] {
     color: rgb (255, 255, 255);
     cursor: pointer;
     border: none;
@@ -310,29 +311,29 @@ forcing any scrollbars*/
     outline: none;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin: Opx 38;
-    padding: 7px Opx;
+    margin: opx 38;
+    padding: 7px opx;
     width: 258;
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s; 
     border-radius: 7px;
     background-color: #797a7b;
-    box-shadow: 1px 1px 4px 0 rgba (0, 0, 0, 0.3);
+    box-shadow: 1px 1px 4px 0 rgba (0,0,0,0.3);
 }
 
-.submit input [type="submit"]:hover { 
+.submit input[type="submit"]:hover { 
     color: #000;
     background-color: #add2f7;
-    box-shadow: inset 1px 2px 15px 0 rgba (0, 0, 0, 0.5);
+    box-shadow: inset 1px 2px 15px 0 rgba (0,0,0,0.5);
 }
 
 /*-----------------------------------------------------------------------------------------------
         FOOTER STYLES
 -----------------------------------------------------------------------------------------------*/
 #footer {
-    background-color: rgba (100, 65, 0, 3); 
+    background-color: rgba (100,65,0,3); 
     color: #000;
-    text-shadow: 2px 2px 8px 0 rgba (0, 0, 0, 1); 
+    text-shadow: 2px 2px 8px 0 rgba (0,0,0,1); 
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
@@ -387,13 +388,13 @@ forcing any scrollbars*/
 
 .menu li {
     color: #000;
-    background-color: rgba (255, 255, 255, 1); 
+    background-color: rgba (255,255,255,1); 
     display: inline-block;
     margin: 08 auto;
     position: relative;
     padding: 15px 4%;
     border: 1px solid #9D9FA2;
-    box-shadow: 2px 2px 10px 0 rgba (0, 0, 0, 0.5); 
+    box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.5); 
     border-radius: 6px;
     /*background-color: #052136;*/
     cursor: pointer;
@@ -405,7 +406,7 @@ forcing any scrollbars*/
 
 .menu li:hover {
     color: #f00;
-    background-color: rgba (100, 65, 0, 0.3);
+    background-color: rgba (100,65,0,0.3);
 }
 
 /*-----------------------------------------------------------------------------------------------
@@ -421,7 +422,7 @@ forcing any scrollbars*/
     padding: 1px;
     border: 1px solid #021a40; 
     background-color: #ff0;
-    box-shadow: 2px 2px 10px 0 rgba (0, 0, 0, 0.7);
+    box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.7);
 }
 
 .photo-container {
@@ -447,7 +448,7 @@ forcing any scrollbars*/
     padding-right: 20px;
     justify-content: center; /* For centering text inside photo-overlay */ 
     align-items: center;
-    background: rgba (0, 0, 0, 5);
+    background: rgba (0,0,0,5);
 }
 .white-head {
     color: #C9BDAA;
@@ -476,7 +477,6 @@ photo img {
 .photo:hover img {
     transform: scale (1.1) ;
 }
-
 
 
 
