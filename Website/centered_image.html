@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hiking trip</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<style>
+		img {
+			display: block;
+			margin: 0 auto;
+			border-radius: 50%;
+			width: 50%;
+		}
+		h1 {
+			text-align: center;
+			border: 10px solid #8ae0a8; 
+			padding: 10px;
+			margin-top: 60px;
+			color: rgb(151, 229, 169); 
+			font-family: monospace; 
+		}
+		footer {
+			background-color: #b5f6c4;
+			padding: 20px;
+			text-align: center;
+		}
+		footer p {
+			font-weight: bold;
+		}
+		table {
+			border: 2px solid #8fe8ae;
+			border-collapse: collapse;
+			width: 100%;
+			margin-top: 20px;
+			padding: 10px;
+		}
+		th, td {
+			padding: 10px;
+			text-align: left;
+			border: 2px solid #78d599;
+			color: #444;
+		}
+		th {
+			background-color: #b5f6c4;
+			font-weight: bold;
+		}
+        .img-container {
+            position: relative;
+        }
+        .caption {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(68, 113, 159);
+            font-size: 24px;
+            text-align: center;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        nav a {
+            display: inline-block;
+            margin-right: 20px;
+            color: #444;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #81e4a4;
+        }
+        nav a:hover {
+            background-color: #b5f6c4;
+            color: #5bd486;
+        }
+        @media only screen and (max-width: 600px) {
+			p {
+				color: blue
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	<h1>Hiking trip</h1>
+    <div class="img-container">
+        <img src="./Images/Example Image.jpg" alt="example image">
+        <div class="overlay">
+       <div class="caption">This is a beautiful mountain view</div>
+    </div>
+    <p class="centered">Are you ready to embark on an adventure and explore the great outdoors?
+         Join us on our next hiking trip and experience breathtaking views and 
+         unforgettable memories!</p>
+    <table>
+        <thead>
+            <tr>
+                <th style="height: 50px; width: 50%;">Hike 1</th>
+                <th style="height: 50px; width: 50%;">Hike 2</th>
+            </tr>
+        </thead>
+        <tbody>
+             <tr>
+                 <td style="color: #108636;">Beautiful views of the mountains</td>
+                 <td style="color: #108636;">Over the river and through the woods</td>
+             </tr>
+        </tbody>
+    </table>
+    <div style="position:relative;">
+        <video autoplay muted loop>
+            <source src="blue-1700.mp4" type="video/mp4">
+        </video>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white; text-align: center;">
+            <h1>Watch this beautiful video of nature</h1>
+        </div>
+    </div>
+        <p>&copy;tanya's hiking page 2023</p>
+    </footer>
+</body>
+</html>
+
