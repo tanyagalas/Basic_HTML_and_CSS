@@ -197,7 +197,7 @@ forcing any scrollbars*/
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(43, 91, 121, 0.3); 
+    background-color: rgba(231, 233, 238, 0.3); 
     box-shadow: 2px 2px 10px 0 rgba(245, 245, 248, 0.5);
 }
 
@@ -210,7 +210,7 @@ forcing any scrollbars*/
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100,65,0,.3);
+    background-color: rgba(5, 53, 79, 0.3);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -331,7 +331,7 @@ forcing any scrollbars*/
         FOOTER STYLES
 -----------------------------------------------------------------------------------------------*/
 #footer {
-    background-color: rgba(100,65,0,3); 
+    background-color: #add2f7 
     color: #000;
     text-shadow: 2px 2px 8px 0 rgba(0,0,0,1); 
     padding: 20px 50px 20px 50px;
@@ -451,7 +451,7 @@ forcing any scrollbars*/
     background: rgba(0,0,0,5);
 }
 .white-head {
-    color: #C9BDAA;
+    color: #99d0f4;
     margin-top: 5%;
 }
 

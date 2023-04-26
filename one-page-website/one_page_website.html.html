@@ -1,56 +1,102 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Caribbean Islands Travel</title>
-    <link rel="stylesheet" href="css/one_page_website.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to Caribbean Islands</h1>
-        <p>Explore the beauty of the Caribbean Islands</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li> 
-            <li><a href="#images">Pictures</a></li> 
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#video">Video</a></li>
-        </ul>
-    </nav>
-   
-    <section id="home">
-        <h2>About Caribbean Islands</h2>
-        <p>The Caribbean islands are a group of islands located in the Caribbean Sea. They are known for their stunning beaches, crystal-clear waters, and vibrant culture. Whether you're looking for a relaxing getaway or an adventurous vacation, the Caribbean islands have something for everyone.</p>
-    </section>
-    <section id="images">
-        <h2>Explore the Beauty</h2>
-        <p>Check out these pictures of the Caribbean islands:</p>
-        <img src="images/island_1.png" alt="Tropical beach">
-        <img src="images/island_3.png" alt="Blue water beach">
-        <img src="images/island_5.png" alt="White beach">
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to book a trip, please fill out the form below:</p>
-        <form action="process_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-    <section id="video">
-        <h2>Watch Our Videos</h2>
-        <p>Check out these videos showcasing the beauty of the Caribbean islands:</p>
-         <iframe src="https://www.youtube.com/embed/hRpxiDCZj8E" frameborder="0" allowfullscreen></iframe>
-         <iframe src="https://www.youtube.com/embed/Ls0Zy0QAXXY" frameborder="0" allowfullscreen></iframe>
-    </section> 
-    
-    <footer>
-        <p>Contact us at info@caribbeanislandstravel.com</p>
-    </footer>
-</body>
-</html
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>>Caribbean Islands Travel</title>
+		<link rel="stylesheet" href="css/one_page_website.css">
+		<script  src="JS/one_page_website.js" defer></script>
+	</head>
+	<body>
+	
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>RESERVATIONS</li></a>
+				</ul>
+			</div>
+		</div>
+		<!--END NAV-->
+		
+		
+		<!--HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span>Explore the beauty of the Caribbean Islands</span>
+				</div>
+			</div>
+		</div>
+		<!--END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+			</div>
+
+			<!-- LIGHTBOX -->
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+	  
+		<div class="mySlides">
+			<div class="numbertext"></div>
+				<img src="images/island_1.png" style="width: 50%">
+			</div>
+	
+		<div class="mySlides">
+			<div class="numbertext"></div>
+				<img src="images/island_3.png" style="width:50%">
+			</div>
+	
+		<!-- Next/previous controls -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		</div>
+		</div>
+	
+
+					
+						<!-- RSVP -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Reservations</h1>
+					<div>
+						<h2><span>Your trip is just around the corner.</span>
+							<br />Contact us if you want to explore Caribbean Islands!
+						</h2>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/hRpxiDCZj8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="2020 BMW M4 CS Coupe"></iframe>
+		
+		<!-- FOOTER -->
+		<div>
+			www.caribbeanislandstravel.com &nbsp;|&nbsp; &copy; 2018
+		</div>
+		<!-- END FOOTER -->
